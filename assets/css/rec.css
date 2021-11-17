@@ -1,0 +1,56 @@
+body{
+    background-color: #c4f3ed;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1{
+    color: yellowgreen;
+}
+.instr{
+    color: darkgreen;
+    border-color: darkgreen;
+    margin-top: 10px;
+}
+
+form{
+    background-color: rgba(8, 185, 185, 0.7);
+    color: darkgreen;
+    border: 3px solid black;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: justify;
+    padding: 20px;
+    margin: 20px;
+}
+
+p{
+    font-size: 23px;
+    font-weight: bold;
+}
+.option{
+    display: inline;
+    margin: 5px;
+}
+
+.question{
+    margin-bottom: 10px;
+}
+
+#submit-button{
+    border: 3px solid darkgreen;
+    border-radius: 10px;
+    background-color: yellowgreen;
+    font-size: 23px;
+    padding: 10px;
+}
+
+#submit-button:hover{
+    border: 3px solid black;
+    color:black;
+    background-color: teal;
+}
+
+label:hover{
+    background-color: yellowgreen;
+}

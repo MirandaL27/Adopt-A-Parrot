@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href = "./assets/css/style.css"/>
+    <link rel="stylesheet" href="./assets/css/rec.css">
+    <title>Adopt-A-Parrot - Parrot Recommendation Tool</title>
+</head>
+<body>
+    <header>
+        <h1>Parrot Recommendation Tool</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <h2 class = "instr">Fill Out the form below to recieve a recommendation of what bird species is right for you! </h2>
+        </div>
+        <div>
+            <form class="questionaire">
+                <div class="question">
+                    <p> What price range are you considering?</p>
+                    <div class="option">
+                        <input type="radio" name = "price" id = "price-1"/>
+                        <label for= "price-1">$50 - $100</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name = "price" id="price-2"/>
+                        <label for = "price-2">$100 - $500</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name = "price" id="price-3"/>
+                        <label for = "price-3">$500- $1000</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name = "price" id="price-4"/>
+                        <label for = "price-4">$1000 - $2000</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name = "price" id="price-5"/>
+                        <label for = "price-5">Over $2000</label>
+                    </div>
+                </div>
+                
+                
+                <div class="question">
+                    <p> What size of Bird would you prefer? </p>
+                    <div class="option">
+                        <input type="radio" name = "size" id = "size-1"/>
+                        <label for= "size-1">small (6 - 8 inches)</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name = "size" id="size-2"/>
+                        <label for = "size-2">Medium (8-14 inches)</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name = "size" id="size-3"/>
+                        <label for = "size3">Large (over 14 inches)</label>
+                    </div>
+                </div>
+                
+                <div class="question">
+                    <p> What lifespan would you prefer? </p>
+                    <div class="option">
+                        <input type="radio" name = "span" id = "span-1"/>
+                        <label for= "span-1">5-10 years</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name = "span" id="span-2"/>
+                        <label for = "span-2">10-20 years</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name = "span" id="span-3"/>
+                        <label for = "span-3">20-50 years</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name = "span" id="span-4"/>
+                        <label for = "span-4">50-100 years</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name = "span" id="span-5"/>
+                        <label for = "span-5">Over 100 years</label>
+                    </div>
+                </div>
+                
+                <div class="question">
+                    <p> How large of a living space can you provide? </p>
+                    <div class="option">
+                        <input type="radio" name = "space" id = "space-1"/>
+                        <label for= "space-1">Small (10 sqft)</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name = "space" id="space-2"/>
+                        <label for = "space-2">Medium (20 sqft)</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name = "space" id="space-3"/>
+                        <label for = "space-3">Large (50 sqft)</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name = "space" id="space-4"/>
+                        <label for = "space-4">Very Large (over 50 sqft)</label>
+                    </div>
+                </div>
+                
+                <div class="question">
+                    <p> How much attention time per day can you give your bird? </p>
+                    <div class="option">
+                        <input type="radio" name = "time" id = "time-1"/>
+                        <label for= "time-1">less than 1 hour</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name = "time" id = "time-1"/>
+                        <label for= "time-1">1-2 hours</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name = "time" id = "time-1"/>
+                        <label for= "time-1">3-6 hours</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name = "time" id = "time-1"/>
+                        <label for= "time-1">over 6 hours</label>
+                    </div>
+                </div>
+                
+                <div class="question">
+                    <p> Do you have prior experience with owning parrots?</p>
+                    <div class="option">
+                        <input type="radio" name = "exp" id = "exp-yes"/>
+                        <label for= "exp-yes">Yes</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name = "exp" id = "exp-no"/>
+                        <label for= "exp-no">No</label>
+                    </div>
+                </div>
+                
+                <div class="question">
+                    <p> Do you live with other people?</p>
+                    <div class="option">
+                        <input type="radio" name = "ppl" id = "ppl-yes"/>
+                        <label for= "ppl-yes">Yes</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name = "ppl" id = "ppl-no"/>
+                        <label for= "ppl-no">No</label>
+                    </div>
+                </div>
+                
+                <div class="question">
+                    <p> Do you live with other pets?</p>
+                    <div class="option">
+                        <input type="radio" name = "pets" id = "pets-yes"/>
+                        <label for= "pets-yes">Yes</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name = "pets" id = "pets-no"/>
+                        <label for= "pets-no">No</label>
+                    </div>
+                </div>
+                
+                <div class="question">
+                    <p>What state are you planning to live in?</p> 
+                    <select name = "state" id="state">
+                        <option value="AZ">AZ</option>
+                        <option value="CA">CA</option>
+                    </select>
+                </div>
+                
+                <div class="question">
+                    <p> Would you like a talking bird? </p>
+                    <div class="option">
+                        <input type="radio" name = "talk" id = "talk-yes"/>
+                        <label for= "talk-yes">Yes</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name = "talk" id = "talk-no"/>
+                        <label for= "talk-no">No</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name = "talk" id = "talk-no"/>
+                        <label for= "talk-no">Doesn't Matter</label>
+                    </div>
+                </div>
+                <div>
+                    <button type="submit" id="submit-button">Get Recommendation</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <h2>❤️ Made with love by Adopt A Parrot.</h2>
+        <div>
+          <a href="#">Read Our Privacy Policy</a><br />
+          &copy; 2019 Parront Co.  
+        </div>
+    </footer>
+</body>
+</html>
