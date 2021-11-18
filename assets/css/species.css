@@ -1,0 +1,43 @@
+body{
+    background-color: #c4f3ed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: yellowgreen;
+}
+
+.species-header{
+    color: darkgreen;
+    border-color: darkgreen;
+}
+
+.right{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 400px;
+}
+
+.parakeet {
+    background-image: url("");
+}
+
+.bird-container{
+    width: 40%;
+    text-align: left;
+    padding: 20px;
+    border: 3px solid darkgreen;
+    border-radius: 15px;
+    background-color: rgba(8, 185, 185, 0.7);
+    box-shadow:5px 10px 15px rgba(0, 0, 0, 0.7);
+    color: darkgreen;
+    margin-right: 30px;
+}
+
+.bird-fact-container{
+    font-size: 20px;
+}
+.bird-para{
+    margin-top: 10px;
+}
