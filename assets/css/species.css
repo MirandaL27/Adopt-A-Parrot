@@ -19,6 +19,13 @@ h1 {
     height: 400px;
 }
 
+.left{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 400px;
+}
+
 .parakeet {
     background-image: url("");
 }
